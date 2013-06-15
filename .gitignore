@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 logs
-=======
 # Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
 # Ignore all dotfiles...
 .*
@@ -15,12 +13,10 @@ log
 logs
 modules
 precompiled
->>>>>>> 14acf70ed8ce7e33d1bfa1fdaaef83725d53a2ed
 project/project
 project/target
 target
 tmp
-<<<<<<< HEAD
 .history
 dist
 /.idea
@@ -31,9 +27,7 @@ dist
 /.project
 /RUNNING_PID
 /.settings
-=======
 test-result
 server.pid
 *.iml
 *.eml
->>>>>>> 14acf70ed8ce7e33d1bfa1fdaaef83725d53a2ed
