@@ -1,0 +1,10 @@
+@(form: Form[(String, String)])
+@base("ログイン"){
+    @helper.form(action = routes.Auth.authenticate()){
+        @helper.input(form("mailAddress")){(id, name, value, args) =>
+            <input type="email" id="@id" name="@name" value="@value" @toHtmlArgs(args)>
+        }
+        @helper.inputPassword(form("password"))
+        <input class="btn btn-primary" type="submit" value="ログイン">
+    }
+}
